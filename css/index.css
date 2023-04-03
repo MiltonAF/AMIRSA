@@ -1,6 +1,6 @@
 @import url(global.css);
 
-body{
+.body_login{
     align-items: center;
     justify-content: center;
     display: flex;
