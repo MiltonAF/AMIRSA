@@ -9,6 +9,8 @@
                 <img src="img/AMIRSA MISION VERDE LOGO.png" alt="" srcset="">
 
                 <h2>Bienvenidos</h2>
+                <?php include('./model/conexion.php') ?>
+                <?php include('./controller/c_login.php') ?>
 
             </div>
             <div class="textfield">
@@ -28,7 +30,7 @@
 
             <div class="btn">
                 <a href="dashboard.html">aqui</a>
-                <input type="submit" value="ENTRAR" placeholder="ENTRAR">
+                <input type="submit" value="ENTRAR" name="btn_login" placeholder="ENTRAR">
             </div>
         </div>
     </form>
