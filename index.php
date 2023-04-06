@@ -3,7 +3,7 @@
 <div class="body_login">
 
 
-    <form action="" method="post">
+    <form action="./controller/login.php" method="post">
         <div class="container">
             <div class="head">
                 <img src="img/AMIRSA MISION VERDE LOGO.png" alt="" srcset="">
