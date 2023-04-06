@@ -5,12 +5,14 @@
 
     <form action="./controller/login.php" method="post">
         <div class="container">
-            <div class="head">
-                <img src="img/AMIRSA MISION VERDE LOGO.png" alt="" srcset="">
 
+            <div class="head">
+
+                <img src="img/AMIRSA MISION VERDE LOGO.png" alt="" srcset="">
                 <h2>Bienvenidos</h2>
-               
+
             </div>
+
             <div class="textfield">
 
                 <div class="field">
@@ -24,13 +26,17 @@
                     <i class="fa-solid fa-eye" onclick="mostrar()" id="ver"></i>
                     <i class="fa-solid fa-eye-low-vision" onclick="ocultar()" id="ocultar"></i>
                 </div>
+
             </div>
 
             <div class="btn">
-                <a href="dashboard.html">aqui</a>
-                <input type="submit" value="ENTRAR" name="btn_login" >
+
+                <input type="submit" value="ENTRAR" name="btn_login">
+
             </div>
+
         </div>
+
     </form>
 
 </div>
