@@ -8,10 +8,13 @@
 
             <div class="head">
 
-                <img src="img/AMIRSA MISION VERDE LOGO.png" alt="" srcset="">
+                <img src="img/logo.png" alt="" srcset="">
                 <h2>Bienvenidos</h2>
 
             </div>
+
+
+            <!-- estrutura para campo de texto -->
 
             <div class="textfield">
 
@@ -30,7 +33,6 @@
             </div>
 
             <div class="btn">
-
                 <input type="submit" value="ENTRAR" name="btn_login">
 
             </div>
