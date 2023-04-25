@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/sidenav.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/doc.css">
+    <link rel="stylesheet" href="css/user.css">
     <title>AMIRSA</title>
 </head>
+
 <body>
