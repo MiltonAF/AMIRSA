@@ -2,15 +2,13 @@
 
 <div class="body_login">
 
-
+    <!--Formulario para el inicio de session de los usuarios ya regstrados-->
     <form action="./controller/login.php" method="post">
         <div class="container">
 
             <div class="head">
-
                 <img src="img/logo.png" alt="" srcset="">
                 <h2>Bienvenidos</h2>
-
             </div>
 
 
@@ -34,7 +32,6 @@
 
             <div class="btn">
                 <input type="submit" value="ENTRAR" name="btn_login">
-
             </div>
 
         </div>
