@@ -1,4 +1,6 @@
+<!--Codigo del inicio de la pagina-->
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>

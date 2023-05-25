@@ -1,3 +1,5 @@
+<!--Importamos el codigo para el header de la pagina-->
+
 <?php require('./layout/header.php') ?>
 
 <div class="body_login">
@@ -12,6 +14,8 @@
             </div>
 
 
+
+
             <!-- estrutura para campo de texto -->
 
             <div class="textfield">
@@ -20,6 +24,7 @@
                     <i class="fa-solid fa-user"></i>
                     <input type="text" name="user" id="user" placeholder="Usuarios">
                 </div>
+                <div id="err" style="display: none">Datos IN</div>
 
                 <div class="field">
                     <i class="fa-solid fa-key"></i>
@@ -40,4 +45,5 @@
 
 </div>
 
+<!--Importamos el codigo para el footer o pide pagina-->
 <?php require('./layout/footer.php') ?>

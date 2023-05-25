@@ -1,8 +1,12 @@
+<!--Barra de navegacion lateral-->
 <div class="sidebar">
+  <!--Logo e informacion de la empresa-->
   <div class="logo-details">
     <img src="img/logo.png" alt="" srcset="">
     <div class="logo_name">Amirsa</div>
   </div>
+
+  <!--item de navegacion-->
   <ul class="nav-list">
 
     <li>
@@ -80,10 +84,11 @@
 
         <div class="name_job">
           <div class="name">
-            <?php echo ("$vec[nombre] $vec[apellido]"); ?>
+            <?php echo ("$vec[name] $vec[surname]"); ?>
           </div>
+          <!--Cargo del empleado-->
           <div class="job">
-            <?php echo ("$rol[nombre]"); ?>
+            <?php echo ("$vec[role]"); ?>
           </div>
         </div>
       </div>
