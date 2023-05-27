@@ -37,7 +37,7 @@ include('layout/sidenav.php');
                     <th>Acciones</th>
                 </tr>
                 <?php
-                $sql = "SELECT * FROM empleados";
+                $sql = "SELECT * FROM employees";
                 $consult = mysqli_query($conn, $sql);
 
 
@@ -47,32 +47,26 @@ include('layout/sidenav.php');
 
                     <tr>
                         <td>
-                            <?php echo ("$array[cedula]"); ?>
+                            <?php echo ("$array[id_card]"); ?>
                         </td>
                         <td>
-                            <?php echo ("$array[nombre] $array[apellido]"); ?>
+                            <?php echo ("$array[name] $array[surname]"); ?>
                         </td>
                         <td>
-                            <?php echo ("$array[e_mail]"); ?>
+                            <?php echo ("$array[email]"); ?>
                         </td>
                         <td>
-                            <?php echo ("$array[telefono]"); ?>
+                            <?php echo ("$array[phone]"); ?>
                         </td>
                         <td>
-                            <?php echo ("$array[direccion]"); ?>
+                            <?php echo ("$array[addres]"); ?>
                         </td>
                         <td>
-                            <?php
-                            $id_cargo = $array["cargo_id"];
-                            $sql = "SELECT * FROM cargo WHERE id = $id_cargo";
-                            $consult = mysqli_query($conn, $sql);
-                            $cargo = mysqli_fetch_array($consult);
-                            echo ("$cargo[nombre]")
-                                ?>
+                            <?php echo ("$array[role]"); ?>
                         </td>
 
                         <td>
-                            <?php echo ("$array[estado]"); ?>
+                            <?php echo ("$array[status]"); ?>
                         </td>
 
 
@@ -126,23 +120,6 @@ include('layout/sidenav.php');
                             <input type="text" name="address" id="address" placeholder="Dirrecion">
                         </div>
 
-                        <div class="field">
-                            <select name="cargo" id="cargo">
-                                <option value="">
-                                    Seleccionar el Cargo</option>
-                                <?php
-                                $sql2 = "SELECT * FROM cargo";
-                                $consult2 = mysqli_query($conn, $sql2);
-
-
-                                foreach ($consult2 as $option): ?>
-
-                                    <option value="<?php echo ("$option[nombre]") ?>"><?php echo ("$option[nombre]") ?>
-                                    </option>
-
-                                <?php endforeach ?>
-                            </select>
-                        </div>
 
                         <div class="field">
                             <select name="status" id="status">
